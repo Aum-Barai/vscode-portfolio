@@ -3,6 +3,7 @@
 import { useEffect, useState } from "react";
 import Layout from "../components/Layout";
 import Head from "../components/Head";
+import { Analytics } from "@vercel/analytics/react";
 import "../styles/globals.css";
 import "../styles/themes.css";
 
@@ -20,6 +21,7 @@ function MyApp({ Component, pageProps }) {
     <Layout>
       <Head title={`Aum Barai | ${pageProps.title}`} />
       <Component {...pageProps} />
+      <Analytics />
     </Layout>
   );
 }
