@@ -1,0 +1,58 @@
+[
+  {
+    "id": 1,
+    "name": "Robofest 3.0 - 6x6 Autonomous Rover",
+    "image": "https://images.unsplash.com/photo-1679678691006-0ad24fecb769?q=80&w=2070&auto=format&fit=crop",
+    "description": "Secured ₹2.5 Lakh funding, engineered a fully functional 6x6 autonomous rover with angle-based speed control, intelligent GPS navigation, PID control, obstacle avoidance and path planning.",
+    "tags": ["Autonomous Systems", "Robotics", "GPS Navigation", "PID Control"],
+    "demo": "#"
+  },
+  {
+    "id": 2,
+    "name": "Tweet Sentiment Analyzer",
+    "image": "https://images.unsplash.com/photo-1614332287897-cdc485fa562d?q=80&w=2070&auto=format&fit=crop",
+    "description": "Flask-based web application for zero-shot sentiment analysis of tweets using Ollama LLM models (llama3.2) with LangChain integration. Captures nuances such as positivity, negativity, neutrality, sarcasm, and humor.",
+    "tags": ["Flask", "LangChain", "Ollama", "LLM", "Sentiment Analysis"],
+    "source_code": "https://github.com/AumBarai/tweet-sentiment-analyzer",
+    "demo": "#"
+  },
+  {
+    "id": 3,
+    "name": "News Ministry Classification",
+    "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?q=80&w=2070&auto=format&fit=crop",
+    "description": "Research project to build APIs for scraping news articles and classify them into 61 ministry categories using BERT transformers. Achieved 91% top-3 accuracy on a dataset of 36,000 articles.",
+    "tags": [
+      "BERT",
+      "Deep Learning",
+      "NLP",
+      "API Development",
+      "News Classification"
+    ],
+    "source_code": "https://github.com/AumBarai/news-ministry-classification",
+    "demo": "#"
+  },
+  {
+    "id": 4,
+    "name": "Agent-Based Snake Game",
+    "image": "https://images.unsplash.com/photo-1642177584449-fa0b017dccc7?q=80&w=2036&auto=format&fit=crop",
+    "description": "RL-based Snake Game using PyTorch, PyGame, and Matplotlib. Features real-time visualization of the game and dynamic reward graph, offering insights into the agent's learning process and decision-making.",
+    "tags": ["Reinforcement Learning", "PyTorch", "PyGame", "Matplotlib"],
+    "source_code": "https://github.com/AumBarai/agent-based-snake-game",
+    "demo": "#"
+  },
+  {
+    "id": 5,
+    "name": "Semi-Autonomous Agricultural 4x4 Robot",
+    "image": "https://images.unsplash.com/photo-1508841381915-2d132f7e7d23?q=80&w=2069&auto=format&fit=crop",
+    "description": "Jetson Xavier-based agricultural robot with GPS navigation, real-time plant disease monitoring using YOLOv8, and environmental sensors for farm automation and safety.",
+    "tags": [
+      "Jetson Xavier",
+      "YOLOv8",
+      "GPS Navigation",
+      "IoT",
+      "Agricultural Tech"
+    ],
+    "source_code": "https://github.com/AumBarai/agricultural-robot",
+    "demo": "#"
+  }
+]

@@ -1,0 +1,58 @@
+{
+  "user": {
+    "login": "AumBarai",
+    "avatar_url": "https://images.unsplash.com/photo-1618401471353-b98afee0b2eb?q=80&w=2088&auto=format&fit=crop",
+    "public_repos": 12,
+    "followers": 56
+  },
+  "repos": [
+    {
+      "id": 1,
+      "name": "tweet-sentiment-analyzer",
+      "description": "Flask-based web application for zero-shot sentiment analysis of tweets using Ollama LLM models",
+      "stargazers_count": 24,
+      "forks_count": 5,
+      "html_url": "https://github.com/AumBarai/tweet-sentiment-analyzer"
+    },
+    {
+      "id": 2,
+      "name": "agent-based-snake-game",
+      "description": "RL-based Snake Game using PyTorch, PyGame, and Matplotlib with real-time learning visualization",
+      "stargazers_count": 18,
+      "forks_count": 3,
+      "html_url": "https://github.com/AumBarai/agent-based-snake-game"
+    },
+    {
+      "id": 3,
+      "name": "news-ministry-classification",
+      "description": "Research project to classify news articles into 61 ministry categories using BERT transformers",
+      "stargazers_count": 15,
+      "forks_count": 2,
+      "html_url": "https://github.com/AumBarai/news-ministry-classification"
+    },
+    {
+      "id": 4,
+      "name": "agricultural-robot",
+      "description": "Jetson Xavier-based agricultural robot with GPS navigation and plant disease monitoring",
+      "stargazers_count": 12,
+      "forks_count": 1,
+      "html_url": "https://github.com/AumBarai/agricultural-robot"
+    },
+    {
+      "id": 5,
+      "name": "robofest-rover",
+      "description": "6x6 autonomous rover with angle-based speed control and GPS navigation for Robofest 3.0",
+      "stargazers_count": 10,
+      "forks_count": 2,
+      "html_url": "https://github.com/AumBarai/robofest-rover"
+    },
+    {
+      "id": 6,
+      "name": "portfolio-website",
+      "description": "Personal portfolio website built with Next.js and styled like VS Code",
+      "stargazers_count": 8,
+      "forks_count": 1,
+      "html_url": "https://github.com/AumBarai/portfolio-website"
+    }
+  ]
+}

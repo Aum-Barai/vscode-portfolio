@@ -1,0 +1,110 @@
+.container {
+  padding: 0 1rem;
+  max-width: 800px;
+}
+
+.section {
+  margin-bottom: 2rem;
+}
+
+.sectionTitle {
+  color: #4d9de0;
+  font-size: 1.2rem;
+  margin-bottom: 0.75rem;
+  border-bottom: 1px solid #393e46;
+  padding-bottom: 0.3rem;
+}
+
+.education {
+  margin-bottom: 1.5rem;
+}
+
+.schoolName {
+  font-weight: bold;
+  color: #e4e4e4;
+}
+
+.location {
+  color: #4d9de0;
+  font-size: 0.9rem;
+  margin-left: 0.5rem;
+}
+
+.date {
+  color: #aaa;
+  font-size: 0.85rem;
+  margin-top: 0.2rem;
+  font-style: italic;
+}
+
+.grade {
+  margin-top: 0.2rem;
+  color: #ddd;
+}
+
+.job {
+  margin-bottom: 1.5rem;
+}
+
+.company {
+  font-weight: bold;
+  color: #e4e4e4;
+}
+
+.role {
+  color: #4d9de0;
+  font-style: italic;
+  margin-top: 0.2rem;
+}
+
+.jobDescription {
+  margin-top: 0.5rem;
+  margin-left: 1rem;
+}
+
+.jobDescription li {
+  margin-bottom: 0.5rem;
+  line-height: 1.5;
+}
+
+.skillsList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-top: 0.5rem;
+}
+
+.skillCategory {
+  flex: 1;
+  min-width: 250px;
+}
+
+.skillTitle {
+  font-weight: bold;
+  color: #e4e4e4;
+  margin-bottom: 0.5rem;
+}
+
+.publication {
+  margin-bottom: 1rem;
+}
+
+.publicationTitle {
+  font-weight: bold;
+  color: #e4e4e4;
+}
+
+.conference {
+  color: #aaa;
+  font-style: italic;
+  margin-top: 0.2rem;
+}
+
+.activities {
+  margin-left: 1rem;
+}
+
+.activities li {
+  margin-bottom: 0.5rem;
+  line-height: 1.5;
+} 
