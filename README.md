@@ -40,9 +40,50 @@ This portfolio is built using a component-based architecture for clean, maintain
   - Ayu
   - Nord
 
-## Environment Variables
+## Environment Setup & Security
 
-For fetching your articles from dev.to, create an `.env.local` file inside the project directory. Check the `.env.local.example` file for more information.
+### Environment Variables
+
+This project uses environment variables for configuration. Follow these steps to set up:
+
+1. **Development Environment:**
+
+   ```bash
+   # Copy the example env file
+   cp .env.example .env.local
+
+   # Edit .env.local with your actual values
+   # NEVER commit this file
+   ```
+
+2. **Production Environment:**
+   - Set up environment variables in your hosting platform (e.g., Vercel)
+   - Never commit production credentials to the repository
+
+### Security Guidelines
+
+1. **Environment Files:**
+
+   - ✅ `.env.example` - Template file, safe to commit
+   - ❌ `.env.local` - Local development, never commit
+   - ❌ `.env.production` - Production settings, never commit
+   - ❌ `.env.development` - Development settings, never commit
+
+2. **API Keys:**
+
+   - Always use environment variables for API keys
+   - Rotate keys if they are ever exposed
+   - Use appropriate key restrictions where possible
+
+3. **Public Variables:**
+
+   - Only use `NEXT_PUBLIC_` prefix for variables that are truly public
+   - Never prefix sensitive values with `NEXT_PUBLIC_`
+
+4. **Version Control:**
+   - Double-check `.gitignore` before committing
+   - Never commit any `.env` files except `.env.example`
+   - If secrets are accidentally committed, change them immediately
 
 ## Running Development Server
 
