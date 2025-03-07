@@ -1,8 +1,29 @@
 <!-- @format -->
 
-# My Portfolio Website
+# VS Code Themed Portfolio
 
-Welcome to my modern portfolio website repository. This project showcases my personal work, projects, and skills using modern web technologies.
+> This project is a customized version of the [VSCode Portfolio](https://github.com/itsnitinr/vscode-portfolio) template created by [Nitin Ranganath](https://github.com/itsnitinr). The original template has received over 1.1k stars on GitHub and provides an excellent foundation for developer portfolios.
+
+A personal portfolio website featuring a VS Code-inspired interface. Built with modern web technologies and designed to showcase my projects and skills in a familiar IDE-like environment.
+
+## Credits and Attribution
+
+This portfolio is based on the work of:
+- **Original Template**: [VSCode Portfolio](https://github.com/itsnitinr/vscode-portfolio)
+- **Creator**: [Nitin Ranganath](https://github.com/itsnitinr)
+- **Creator's Website**: [nitinranganath.com](https://nitinranganath.com)
+
+The template has been customized with additional features like Web3Forms integration while maintaining the original VS Code theme concept. All credit for the original design and implementation goes to Nitin Ranganath.
+
+## Features
+
+- 💻 VS Code themed UI (original design by Nitin Ranganath)
+- 📱 Fully responsive design
+- 📧 Functional contact form using Web3Forms
+- 🚀 Project showcase with dynamic content
+- 🔗 GitHub integration for displaying repositories
+- ⚡ Fast page loads with Next.js
+- 🎨 Clean and modern design
 
 ## Tech Stack
 
