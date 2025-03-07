@@ -10,24 +10,44 @@ import "../styles/themes.css";
 
 function MyApp({ Component, pageProps }) {
   const [isLoading, setIsLoading] = useState(true);
+  const [isContentVisible, setIsContentVisible] = useState(false);
 
   useEffect(() => {
+    // Handle theme
     if (localStorage.getItem("theme")) {
       document.documentElement.setAttribute(
         "data-theme",
         localStorage.getItem("theme")
       );
     }
-  }, []);
+
+    // Hide scrollbar during loading
+    if (isLoading) {
+      document.body.style.overflow = "hidden";
+    }
+
+    return () => {
+      document.body.style.overflow = "visible";
+    };
+  }, [isLoading]);
+
+  // Function to handle when loading is complete
+  const handleFinishLoading = () => {
+    setIsLoading(false);
+    // Delay showing content for smooth transition
+    setTimeout(() => setIsContentVisible(true), 500);
+  };
 
   return (
     <>
-      {isLoading && <LoadingScreen finishLoading={() => setIsLoading(false)} />}
-      <Layout>
-        <Head title={`Aum Barai | ${pageProps.title}`} />
-        <Component {...pageProps} />
-        <Analytics />
-      </Layout>
+      {isLoading && <LoadingScreen finishLoading={handleFinishLoading} />}
+      <div style={{ visibility: isContentVisible ? "visible" : "hidden" }}>
+        <Layout>
+          <Head title={`Aum Barai | ${pageProps.title}`} />
+          <Component {...pageProps} />
+          <Analytics />
+        </Layout>
+      </div>
     </>
   );
 }
